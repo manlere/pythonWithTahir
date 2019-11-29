@@ -1,0 +1,5 @@
+fw = open('sample.txt','w')
+fw.write('Writing some stuff in my text file\n')
+fw.write('i like bacon\n')
+fw.write('i like coding')
+fw.close()

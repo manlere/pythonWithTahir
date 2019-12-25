@@ -1,6 +1,6 @@
 def main():
 	while True:
-		user_input = input("welcome to manlere naira currency converter, what will you like to convert:\n [1]  - brirtsh_pound\n [2]  - euro\n [3]  - american_dollar\n [4]  - indian_rupee\n [5]  - saudi_riyal\n [6]  - canadian_dollar\n [7]  - japanese_yen\n [8]  - swiss_franc\n [9]  - korean_won\n [10] - brazilian_real\n [11] - malaysian_ringgit\n [12] - qatari_rial\n [13] - pakistan_rupee\n [14] - egyptian_pound\n [15] - turkish_lira\n [0] - Exit\n")
+		user_input = input("welcome to manlere naira currency converter, what will you like to convert:\n [1]  - brirtsh_pound\n [2]  - euro\n [3]  - american_dollar\n [4]  - indian_rupee\n [5]  - saudi_riyal\n [6]  - canadian_dollar\n [7]  - japanese_yen\n [8]  - swiss_franc\n [9]  - korean_won\n [10] - brazilian_real\n [11] - malaysian_ringgit\n [12] - qatari_rial\n [13] - pakistan_rupee\n [14] - egyptian_pound\n [15] - turkish_lira\n [0]  - Exit\n")
 		if user_input == "1":
 			naira = input("\nEnter Amount In Naira\n")
 			naira = int(naira)

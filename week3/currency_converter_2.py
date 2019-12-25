@@ -22,6 +22,8 @@ def brirtsh_pound(naira):
 	brirtsh_pound = 0
 	for x in range(naira):
 		brirtsh_pound+=0.0021
+		round(brirtsh_pound)
+
 	print(f"***** {naira} NGN is equal to {brirtsh_pound} Brirtsh Pound *****" )
 
 def euro(naira):

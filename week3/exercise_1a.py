@@ -2,6 +2,7 @@ def main():
 	max2(5,10)
 	min2(5,10)
 	max2("a","b")
+	min2("a","b")
 
 def max2(a,b):
 	if a > b:
